@@ -1,0 +1,40 @@
+# Build artifacts & objects
+obj/
+bin/*.ilk
+bin/*.pdb
+bin/*.exp
+bin/*.lib
+*.o
+*.obj
+*.tmp
+*.log
+
+# Python & testing cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+dist/
+build/
+venv/
+.venv/
+env/
+
+# IDE & OS files
+.agents/
+.vscode/
+.idea/
+*.swp
+*~
+Thumbs.db
+Desktop.ini
+
+# Scratch and intermediate outputs
+scratch/
+temp/
+tmp/
+settings_captured.png
+E:*/
